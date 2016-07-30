@@ -103,7 +103,7 @@ public class WeekHistogram extends View {
             weeDatas.add(new WeeData((int) mCuuentHeight , mBackCurentHeight  ));
         }
         valueAnimator = ValueAnimator.ofFloat(0f, 1f);
-        valueAnimator.setDuration(800);
+        valueAnimator.setDuration(1800);
         valueAnimator.setInterpolator(new OvershootInterpolator());
         valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
@@ -180,7 +180,7 @@ public class WeekHistogram extends View {
                 mCuuentHeight = weeData.getP();
                 mBackCurentHeight = weeData.getB();
             }
-            int pre = (int) ((mCuuentHeight / mBackCurentHeight) * 100);
+            int pre = (int) ((mCuuentHeight / mBackCurentHeight) * 100 * animatedFraction);
             //---------绘制背景
             Rect mBackgroundRect = new Rect(
                     (i + 1) * offset + mHistogramWidth * i + PADDING_LEFT
