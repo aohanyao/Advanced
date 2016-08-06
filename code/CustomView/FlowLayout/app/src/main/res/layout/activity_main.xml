@@ -9,14 +9,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.aohanyao.flowlayout.MainActivity">
 
-    <aohanyao.com.flowlayoutlib.FlowLayout
+    <aohanyao.com.flowlayoutlib.FlowsLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
           >
 
         <Button
             android:layout_width="wrap_content"
-            android:text="activity_vertical_margin"
+            android:text="activity_margin"
             android:layout_height="wrap_content" />
         <Button
             android:layout_width="wrap_content"
@@ -24,11 +24,11 @@
             android:layout_height="wrap_content" />
         <Button
             android:layout_width="wrap_content"
-            android:text="aohanyao"
+            android:text="A"
             android:layout_height="wrap_content" />
         <Button
             android:layout_width="wrap_content"
-            android:text="tools"
+            android:text="B"
             android:layout_height="wrap_content" />
         <Button
             android:layout_width="wrap_content"
@@ -46,5 +46,5 @@
             android:layout_width="wrap_content"
             android:text="wrap_content"
             android:layout_height="wrap_content" />
-    </aohanyao.com.flowlayoutlib.FlowLayout>
+    </aohanyao.com.flowlayoutlib.FlowsLayout>
 </RelativeLayout>

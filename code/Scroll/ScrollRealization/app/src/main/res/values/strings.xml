@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ScrollRealization</string>
+    <string name="title_activity_layout_to_scroll">LayoutToScrollActivity</string>
+</resources>
