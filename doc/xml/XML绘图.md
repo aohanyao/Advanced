@@ -2,23 +2,26 @@
 
 ##一：shape
 
-	```xml
+	``` xml
+
 	<?xml version="1.0" encoding="utf-8"?>
+
 	<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle|oval|ring|line"><!--形状-->
-    <solid /><!--背景颜色-->
-    <corners /><!--角度，圆角-->
-    <gradient /><!--线性变化-->
-    <size /><!--大小-->
-    <stroke/><!--边框-->
-</shape>
-</shape>
+	android:shape="rectangle|oval|ring|line"><!--形状-->
+
+	<solid /><!--背景颜色-->
+	<corners /><!--角度，圆角-->
+	<gradient /><!--线性变化-->
+	<size /><!--大小-->
+	<stroke/><!--边框-->
+	</shape>
+	```
 
 ###rectangle
 ####圆角矩形
 图片
 
-![](../../img/20160806094622.png)
+![](http://obh9jd33g.bkt.clouddn.com/20160806094622.png)
 
 xml
 
@@ -38,12 +41,12 @@ xml
 注
 	使用bottomLeftRadius等属性，可以做出不同的效果，如左两边圆角，右两边不圆角等。
 
-![](../../img/20160806100626.png)  ![](../../img/20160806100746.png)
+![](http://obh9jd33g.bkt.clouddn.com/20160806100626.png)  ![](http://obh9jd33g.bkt.clouddn.com/20160806100746.png)
 
 ####圆角矩形-边框
 图片
 
-![](../../img/20160806101759.png)
+![](http://obh9jd33g.bkt.clouddn.com/20160806101759.png)
 
 	``` xml 
 	<?xml version="1.0" encoding="utf-8"?>
@@ -67,12 +70,12 @@ xml
 
 图
 
-![](../../img/20160806102143.png)
+![](http://obh9jd33g.bkt.clouddn.com/20160806102143.png)
 ###oval
 ####实心圆
 图片
 
-![](../../img/20160806095710.png)
+![](http://obh9jd33g.bkt.clouddn.com/20160806095710.png)
 
 xml
 
@@ -93,7 +96,7 @@ xml
 ####实心圆-边框
 图片
 
-![](../../img/20160806101127.png)
+![](http://obh9jd33g.bkt.clouddn.com/20160806101127.png)
 
 xml
 
@@ -115,7 +118,7 @@ xml
 ###ring
 图片
 
-![](../../img/20160806100007.png)
+![](http://obh9jd33g.bkt.clouddn.com/20160806100007.png)
 
 xml
 
