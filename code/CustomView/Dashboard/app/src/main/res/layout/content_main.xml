@@ -12,7 +12,7 @@
     tools:context="aohanyao.com.dashboard.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <aohanyao.com.dashboard.DashboardView
+    <aohanyao.com.dashboard.ClockView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
