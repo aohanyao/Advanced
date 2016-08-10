@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\java_to_js_layout.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\java_to_js_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fullscreen_web.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\fullscreen_web.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mini_qb.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\activity_mini_qb.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\function_block.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\function_block.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tbs_video_layout.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\tbs_video_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\filechooser_layout.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\filechooser_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_layout.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\refresh_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_layout.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\first_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_advanced.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\activity_main_advanced.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\web_tips_layout.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\web_tips_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fullscreen_sys_web.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\layout\\fullscreen_sys_web.xml"
+    }
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\git\X5WebDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0b88bf0593e3eea9b4ed3e74bb648ff0bf1fe2dd">
+        <dex dex="D:\Android\git\X5WebDemo\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_46465d17334e815c634e74cd375c830dee9ec922.jar" />
+    </item>
+    <item
+        jar="D:\Android\git\X5WebDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="92b92aa35a8ccdcea5e400fcfc31dac8a57a3f30">
+        <dex dex="D:\Android\git\X5WebDemo\app\build\intermediates\pre-dexed\debug\instant-run_67170773047e583bf9a0470eb70edec5c75213e8.jar" />
+    </item>
+    <item
+        jar="D:\Android\git\X5WebDemo\app\libs\tbs_sdk_thirdapp_v2.1.2.1096_36511_withoutGame_shareonly_obfs_20160727_105850.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b64fbda1d47f17fc592f36db608b9e7170e19c1e">
+        <dex dex="D:\Android\git\X5WebDemo\app\build\intermediates\pre-dexed\debug\tbs_sdk_thirdapp_v2.1.2.1096_36511_withoutGame_shareonly_obfs_20160727_105850_5b3c393f9cb87eb2f1ecf9af80a647862738f7be.jar" />
+    </item>
+
+</items>

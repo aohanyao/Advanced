@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".NoLoginActivity">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_centerInParent="true"
+        android:text="当前未登录"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="去登陆"
+        android:onClick="goLogin"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="继续启动自己"
+        android:onClick="startUpdateUI"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_progressbar.xml",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable\\color_progressbar.xml"
+    }
+]

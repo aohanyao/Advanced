@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\idscovery_selected.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-ldpi\\idscovery_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    }
+]
