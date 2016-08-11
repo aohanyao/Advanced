@@ -8,6 +8,18 @@
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\function.png"
     },
     {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\imageselect.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\imageselect.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\refresh.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\refresh.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_cleardata_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_cleardata_normal0.png"
+    },
+    {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cookie.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\cookie.png"
     },
@@ -16,64 +28,56 @@
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_adrbar_btn_refresh_normal0.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_testprocesses_fg_normal0.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_testprocesses_fg_normal0.png"
-    },
-    {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\refresh.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\refresh.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\me.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\me.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_menu_fg_pressed.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_menu_fg_pressed.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sysweb.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\sysweb.png"
-    },
-    {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\flash.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\flash.png"
-    },
-    {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_cleardata_normal0.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_cleardata_normal0.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webtips.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\webtips.png"
-    },
-    {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbs_db.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbs_db.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cookie.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\cookie.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fullscreen.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\fullscreen.png"
     },
     {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\flash.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\flash.png"
+    },
+    {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_home_fg_normal2.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_home_fg_normal2.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\firstx5.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\firstx5.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webviewtransport.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\webviewtransport.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\firstx5.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\firstx5.png"
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_menu_btn_quit_fg_normal0.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_menu_btn_quit_fg_normal0.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbsvideo.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbsvideo.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_menu_btn_quit_fg_normal0.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_menu_btn_quit_fg_normal0.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\longclick.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\longclick.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filechooser.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\filechooser.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shake.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\shake.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\me.png",
@@ -88,20 +92,12 @@
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\first_in.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\longclick.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\longclick.png"
-    },
-    {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\people.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\people.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_home_fg_normal2.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_home_fg_normal2.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_openfile_normal0.png",
@@ -112,24 +108,36 @@
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_back_fg_normal0.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shake.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\shake.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\idscovery_selected.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\idscovery_selected.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_forward_fg_normal0.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_forward_fg_normal0.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_testprocesses_fg_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_testprocesses_fg_normal0.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\two_divisions.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\two_divisions.png"
     },
     {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filechooser.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\filechooser.png"
+    },
+    {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\jsjava.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\jsjava.png"
     },
     {
-        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbsweb.png",
-        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbsweb.png"
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\jsjava.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\jsjava.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_testwebviews_fg_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_testwebviews_fg_normal0.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webtips.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\webtips.png"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\securityjs.png",
@@ -140,7 +148,143 @@
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\imageselect.png"
     },
     {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_menu_fg_pressed.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_menu_fg_pressed.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_openfile_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_openfile_normal0.png"
+    },
+    {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\idscovery_selected.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\idscovery_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sysweb.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\sysweb.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\two_divisions.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\two_divisions.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbs_db.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbs_db.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_testprocesses_fg_normal0.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_testprocesses_fg_normal0.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\refresh.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\refresh.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sysweb.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\sysweb.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\flash.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\flash.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webtips.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\webtips.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbs_db.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbs_db.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_forward_fg_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_forward_fg_normal0.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\people.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\people.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_adrbar_btn_refresh_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_adrbar_btn_refresh_normal0.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbsvideo.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbsvideo.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\firstx5.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\firstx5.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\function.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\function.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filechooser.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\filechooser.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webviewtransport.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\webviewtransport.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\securityjs.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\securityjs.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_menu_btn_quit_fg_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_menu_btn_quit_fg_normal0.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_back_fg_normal0.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_back_fg_normal0.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\longclick.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\longclick.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\first_in.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\first_in.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shake.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\shake.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_forward_fg_normal0.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_forward_fg_normal0.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fullscreen.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\fullscreen.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbsweb.png",
+        "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbsweb.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tbsweb.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\tbsweb.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\theme_toolbar_btn_menu_fg_normal.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_menu_fg_normal.png"
     }
 ]

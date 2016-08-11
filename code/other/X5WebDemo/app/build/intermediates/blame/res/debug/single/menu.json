@@ -1,7 +1,15 @@
 [
     {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mini_qb.xml",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\menu\\mini_qb.xml"
     },
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mini_qb.xml",

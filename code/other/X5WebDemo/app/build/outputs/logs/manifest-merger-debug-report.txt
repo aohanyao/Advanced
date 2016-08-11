@@ -1,251 +1,251 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:2:1-141:12
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:2:1-141:12
 	package
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.INTERNET
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:14:5-76
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:14:22-73
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:14:22-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:16:5-75
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:16:22-72
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:16:22-72
 uses-permission#android.permission.READ_SETTINGS
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:17:5-72
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:17:5-72
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:17:22-69
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:17:22-69
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:18:5-73
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:18:5-73
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:18:22-70
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:18:22-70
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:20:5-84
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:20:5-84
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:20:22-81
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:20:22-81
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:21:5-80
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:21:5-80
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:21:22-77
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:21:22-77
 uses-permission#android.permission.GET_TASKS
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:24:5-68
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:24:22-65
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:24:22-65
 application
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:26:5-139:19
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:26:5-139:19
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:31:9-41
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:31:9-41
 	android:hardwareAccelerated
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:29:9-43
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:29:9-43
 	android:allowBackup
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:28:9-35
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:28:9-35
 	android:icon
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:30:9-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:30:9-45
 	android:theme
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:32:9-40
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:32:9-40
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:27:9-38
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:27:9-38
 activity#com.example.test_webview_demo.PreInitBackgroundActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:34:9-38:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:34:9-38:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:37:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:37:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:36:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:36:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:35:13-54
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:35:13-54
 activity#com.example.test_webview_demo.RefreshActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:39:9-43:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:39:9-43:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:42:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:42:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:41:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:41:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:40:13-44
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:40:13-44
 activity#com.example.test_webview_demo.X5FirstTimeActivityForDelay
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:44:9-48:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:44:9-48:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:47:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:47:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:46:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:46:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:45:13-56
 activity#com.example.test_webview_demo.WebDevelopmentTipsActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:49:9-53:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:49:9-53:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:52:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:52:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:51:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:51:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:50:13-55
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:50:13-55
 activity#com.example.test_webview_demo.WebViewTransportActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:54:9-58:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:54:9-58:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:57:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:57:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:56:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:56:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:55:13-53
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:55:13-53
 activity#com.example.test_webview_demo.MyLongPressActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:59:9-63:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:59:9-63:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:62:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:62:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:61:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:61:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:60:13-48
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:60:13-48
 activity#com.example.test_webview_demo.FlashPlayerActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:64:9-68:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:64:9-68:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:67:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:67:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:66:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:66:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:65:13-48
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:65:13-48
 activity#com.example.test_webview_demo.FullScreenActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:69:9-73:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:69:9-73:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:72:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:72:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:71:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:71:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:70:13-47
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:70:13-47
 activity#com.example.test_webview_demo.SystemWebActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:74:9-78:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:74:9-78:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:77:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:77:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:76:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:76:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:75:13-46
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:75:13-46
 activity#com.example.test_webview_demo.JavaToJsActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:79:9-83:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:79:9-83:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:82:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:82:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:81:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:81:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:80:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:80:13-45
 activity#com.example.test_webview_demo.CookieTestActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:84:9-88:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:84:9-88:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:87:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:87:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:86:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:86:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:85:13-47
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:85:13-47
 activity#com.example.test_webview_demo.FilechooserActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:89:9-93:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:89:9-93:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:92:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:92:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:91:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:91:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:90:13-48
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:90:13-48
 activity#com.example.test_webview_demo.BrowserActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:94:9-98:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:94:9-98:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:97:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:97:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:96:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:96:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:95:13-44
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:95:13-44
 activity#com.example.test_webview_demo.ImageResultActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:99:9-103:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:99:9-103:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:102:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:102:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:101:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:101:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:100:13-48
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:100:13-48
 activity#com.example.test_webview_demo.X5FirstTimeActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:104:9-108:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:104:9-108:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:107:13-45
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:107:13-45
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:106:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:106:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:105:13-48
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:105:13-48
 activity#com.example.test_webview_demo.MainActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:109:9-117:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:109:9-117:20
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:111:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:111:13-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:110:13-41
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:110:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:112:13-116:29
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:112:13-116:29
 action#android.intent.action.MAIN
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:113:17-69
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:113:17-69
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:113:25-66
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:113:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:115:17-77
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:115:17-77
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:115:27-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:115:27-74
 activity#com.tencent.smtt.sdk.VideoActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:118:9-129:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:118:9-129:20
 	android:launchMode
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:123:13-44
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:123:13-44
 	android:exported
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:122:13-37
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:122:13-37
 	android:configChanges
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:121:13-74
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:121:13-74
 	android:alwaysRetainTaskState
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:120:13-49
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:120:13-49
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:119:13-62
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:119:13-62
 intent-filter#android.intent.category.DEFAULT+com.tencent.smtt.tbs.video.PLAY
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:124:13-128:29
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:124:13-128:29
 action#com.tencent.smtt.tbs.video.PLAY
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:125:17-74
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:125:17-74
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:125:25-71
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:125:25-71
 category#android.intent.category.DEFAULT
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:127:17-76
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:127:17-76
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:127:27-73
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:127:27-73
 meta-data#QBSDKAppKey
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:131:9-133:56
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:131:9-133:56
 	android:value
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:133:13-53
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:133:13-53
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:132:13-39
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:132:13-39
 activity#com.example.test_webview_demo.MiniQBActivity
-ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:135:9-138:20
+ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:135:9-138:20
 	android:label
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:137:13-59
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:137:13-59
 	android:name
-		ADDED from D:\Android\git\X5WebDemo\app\src\main\AndroidManifest.xml:136:13-43
+		ADDED from D:\Android\git\Advanced\code\other\X5WebDemo\app\src\main\AndroidManifest.xml:136:13-43

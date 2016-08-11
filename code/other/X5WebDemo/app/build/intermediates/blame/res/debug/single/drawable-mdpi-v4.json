@@ -2,5 +2,9 @@
     {
         "merged": "D:\\Android\\git\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\idscovery_selected.png",
         "source": "D:\\Android\\git\\X5WebDemo\\app\\src\\main\\res\\drawable-mdpi\\idscovery_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\idscovery_selected.png",
+        "source": "D:\\Android\\git\\Advanced\\code\\other\\X5WebDemo\\app\\src\\main\\res\\drawable-mdpi\\idscovery_selected.png"
     }
 ]
