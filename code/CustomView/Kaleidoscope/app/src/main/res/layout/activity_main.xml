@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -7,20 +8,17 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="aohanyao.com.kaleidoscope.MainActivity">
 
-
-    <aohanyao.com.custloding.ui.SafeView
-        android:id="@+id/cl_loding"
+    <aohanyao.com.kaleidoscope.ui.KaleidoscopeView
+        android:id="@+id/KaleidoscopeView"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:layout_centerInParent="true"
-        android:elevation="10dp" />
-
-
+        android:layout_centerInParent="true" />
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="start"
-        android:text="start" />
+        android:text="启动/停止"
+        android:onClick="startOrStop"
+        android:layout_height="wrap_content" />
 </LinearLayout>

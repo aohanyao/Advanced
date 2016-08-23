@@ -1,5 +1,6 @@
 package aohanyao.com.custloding.ui;
 
+import android.animation.PropertyValuesHolder;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Camera;
@@ -14,6 +15,7 @@ import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.BounceInterpolator;
 import android.view.animation.LinearInterpolator;
 
 import aohanyao.com.custloding.DensityUtils;
@@ -29,34 +31,36 @@ public class SafeView extends View {
     private int mCy;
     private Paint mPaint;
     private LinearGradient mLeftLinearGradient, mRightLinearGradient;
-    private ValueAnimator animator;
+    private ValueAnimator motionAnimator, touchAnimator;
     private float aninatopValue;
     private int OFFSET = 100;
     int safeCount = 0;
     private Camera camera = new Camera();
     private Matrix matrixCanvas = new Matrix();
+
     public SafeView(Context context) {
         this(context, null);
     }
+
     private float canvasRotateX = 0;
     private float canvasRotateY = 0;
+
     public SafeView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
-    private int centerX;
-    private int centerY;
+
+
     public SafeView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }
 
-    private float canvasMaxRotateDegree = 360;
     private void init() {
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
         mPaint.setStrokeCap(Paint.Cap.ROUND);// 圆角笔触
         mLeftLinearGradient = new LinearGradient(0, 0, mCy - OFFSET, mCy - OFFSET, 0xddffffff, 0x00000000, Shader.TileMode.CLAMP);
-        mRightLinearGradient = new LinearGradient(mCy - OFFSET, mCy/2, 0, mCy/2, 0xddffffff, 0x00000000, Shader.TileMode.CLAMP);
+        mRightLinearGradient = new LinearGradient(mCy - OFFSET, mCy / 2, 0, mCy / 2, 0xddffffff, 0x00000000, Shader.TileMode.CLAMP);
     }
 
     @Override
@@ -93,13 +97,12 @@ public class SafeView extends View {
         mWidth = w;
         mHeight = h;
         mCy = Math.min(mWidth, mHeight);
-        centerX=mCy/2;
-        centerY=mCy/2;
         OFFSET = (int) (mCy * 0.25);
     }
 
     /**
      * 旋转画布
+     *
      * @param canvas
      */
     private void rotateCanvas(Canvas canvas) {
@@ -109,12 +112,13 @@ public class SafeView extends View {
         camera.rotateY(canvasRotateY);
         camera.getMatrix(matrixCanvas);
         camera.restore();
-        int matrixCenterX = centerX;
-        int matrixCenterY = centerY;
+        int matrixCenterX = mCy / 2;
+        int matrixCenterY = mCy / 2;
         matrixCanvas.preTranslate(-matrixCenterX, -matrixCenterY);
         matrixCanvas.postTranslate(matrixCenterX, matrixCenterY);
         canvas.concat(matrixCanvas);
     }
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         float x = event.getX();
@@ -123,8 +127,9 @@ public class SafeView extends View {
         int action = event.getActionMasked();
         switch (action) {
             case MotionEvent.ACTION_DOWN: {
-                //rotateCanvasWhenMove(x, y);
-               // invalidate();
+                stopTouchAnim();
+                rotateCanvasWhenMove(x, y);
+                invalidate();
                 return true;
             }
             case MotionEvent.ACTION_MOVE: {
@@ -133,35 +138,67 @@ public class SafeView extends View {
                 return true;
             }
             case MotionEvent.ACTION_UP: {
-               // rotateCanvasWhenMove(x, y);
-               // invalidate();
+                startBackAnimator();
                 return true;
             }
         }
         return super.onTouchEvent(event);
     }
 
-    private void rotateCanvasWhenMove(float x, float y) {
-        float dx = x - centerX;
-        float dy = y - centerY;
-
-        float percentX = dx / (getWidth() / 2);
-        float percentY = dy / (getHeight() / 2);
-
-        if (percentX > 1f) {
-            percentX = 1f;
-        } else if (percentX < -1f) {
-            percentX = -1f;
-        }
-        if (percentY > 1f) {
-            percentY = 1f;
-        } else if (percentY < -1f) {
-            percentY = -1f;
-        }
-
-        canvasRotateY = canvasMaxRotateDegree * percentX;
-        canvasRotateX = -(canvasMaxRotateDegree * percentY);
+    /**
+     * 启动动画 回弹效果
+     *
+     */
+    private void startBackAnimator() {
+        PropertyValuesHolder xValuesHolder = PropertyValuesHolder.ofFloat("x", canvasRotateX, 0);
+        PropertyValuesHolder yValuesHolder = PropertyValuesHolder.ofFloat("y", canvasRotateY, 0);
+        touchAnimator = ValueAnimator.ofPropertyValuesHolder(xValuesHolder, yValuesHolder).setDuration(700);
+        touchAnimator.setInterpolator(new BounceInterpolator());
+        touchAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                canvasRotateY = (Float) animation.getAnimatedValue("y");
+                canvasRotateX = (Float) animation.getAnimatedValue("x");
+                invalidate();
+            }
+        });
+        touchAnimator.start();
     }
+
+    /**
+     * 停止触摸
+     */
+    private void stopTouchAnim() {
+        if (touchAnimator != null && touchAnimator.isRunning()) {
+            touchAnimator.cancel();
+            touchAnimator = null;
+            canvasRotateX = 0;
+            canvasRotateY = 0;
+            invalidate();
+        }
+    }
+
+    private void rotateCanvasWhenMove(float x, float y) {
+        float dx = x - mWidth / 2;
+        float dy = y - mHeight / 2;
+
+        float perX = dx / (mWidth / 2);
+        float perY = dy / (mHeight / 2);
+
+        if (perX > 1f) {
+            perX = 1f;
+        } else if (perX < -1f) {
+            perX = -1f;
+        }
+        if (perY > 1f) {
+            perY = 1f;
+        } else if (perY < -1f) {
+            perY = -1f;
+        }
+        canvasRotateY = 30 * perX;
+        canvasRotateX = -(30 * perY);
+    }
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -187,6 +224,7 @@ public class SafeView extends View {
 
     /**
      * //绘制文字
+     *
      * @param canvas
      * @param radius
      */
@@ -209,6 +247,7 @@ public class SafeView extends View {
      * 绘制旋转部分
      */
     private void canvasRotate(Canvas canvas, int radius, float angle) {
+        //旋转画布
         canvas.rotate(angle, radius, radius);
         //移动坐标到中心
         canvas.translate(radius, radius);
@@ -225,9 +264,10 @@ public class SafeView extends View {
         //绘制坐标的圆的尾巴
         RectF mRectF = new RectF(-radius + OFFSET, -radius + OFFSET, radius - OFFSET, radius - OFFSET);
         mPaint.setShader(mRightLinearGradient);
-        canvas.drawArc(mRectF, 15, 180 - 15, false, mPaint);//妈的 那是 从多少度 增加多少度
+        canvas.drawArc(mRectF, 15, 180 - 15, false, mPaint);
         mPaint.setShader(mLeftLinearGradient);
         canvas.drawArc(mRectF, 180 + 15, 180 - 15, false, mPaint);
+        //合并画布
         canvas.restore();
     }
 
@@ -245,6 +285,8 @@ public class SafeView extends View {
         canvas.drawCircle(radius, radius, radius - OFFSET, mPaint);
         mPaint.setStyle(Paint.Style.FILL);
         mPaint.setColor(0x22ffffff);
+
+
         if (aninatopValue >= 90) {
             //绘制第二圆圈
             canvas.drawCircle(radius, radius, radius - OFFSET + 40 * percentage, mPaint);
@@ -258,18 +300,18 @@ public class SafeView extends View {
             //绘制第四圆圈
             canvas.drawCircle(radius, radius, radius - OFFSET + 120 * percentage, mPaint);
         }
-        if (aninatopValue<=90){// 初始状态下绘制所有的圆圈
+        if (aninatopValue <= 90) {// 初始状态下绘制所有的圆圈
             mPaint.setColor(0x22ffffff);
             canvas.drawCircle(radius, radius, radius - OFFSET + 40, mPaint);
             mPaint.setColor(0x11ffffff);
-            canvas.drawCircle(radius, radius, radius - OFFSET + 80 , mPaint);
+            canvas.drawCircle(radius, radius, radius - OFFSET + 80, mPaint);
             canvas.drawCircle(radius, radius, radius - OFFSET + 120, mPaint);
         }
         mPaint.setColor(0xff1782dd);//绘制中心圆为背景颜色
         canvas.drawCircle(radius, radius, radius - OFFSET, mPaint);
         mPaint.setColor(0x55ffffff);
-        //渲染
-        RadialGradient radialGradient=new RadialGradient(radius, radius, radius - OFFSET,new int[]{0x00000000, 0xffffffff},null, Shader.TileMode.CLAMP);
+        //渲染 得到中心的 凹凸效果
+        RadialGradient radialGradient = new RadialGradient(radius, radius, radius - OFFSET, new int[]{0x00000000, 0xffffffff}, null, Shader.TileMode.CLAMP);
         mPaint.setShader(radialGradient);
         canvas.drawCircle(radius, radius, radius - OFFSET, mPaint);
     }
@@ -281,15 +323,14 @@ public class SafeView extends View {
      * @param duration
      */
     public void start(final int circleCount, final int duration) {
-        if (animator != null && animator.isRunning()) {
-            animator.cancel();
-            //animator.start();
-            animator = null;
+        if (motionAnimator != null && motionAnimator.isRunning()) {
+            motionAnimator.cancel();
+            motionAnimator = null;
 
         } else {
-            animator = ValueAnimator.ofFloat(circleCount * 360f).setDuration(duration);
-            animator.setInterpolator(new LinearInterpolator());
-            animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            motionAnimator = ValueAnimator.ofFloat(circleCount * 360f).setDuration(duration);
+            motionAnimator.setInterpolator(new LinearInterpolator());
+            motionAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                 @Override
                 public void onAnimationUpdate(ValueAnimator animation) {
                     aninatopValue = (float) animation.getAnimatedValue();
@@ -301,7 +342,7 @@ public class SafeView extends View {
                 }
             });
             safeCount = 0;
-            animator.start();
+            motionAnimator.start();
         }
     }
 
@@ -309,10 +350,10 @@ public class SafeView extends View {
      * 开始
      */
     private void startLoopAnimator() {
-        animator = ValueAnimator.ofFloat(360f).setDuration(1500);
-        animator.setInterpolator(new LinearInterpolator());
-        animator.setRepeatCount(ValueAnimator.INFINITE);
-        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+        motionAnimator = ValueAnimator.ofFloat(360f).setDuration(1500);
+        motionAnimator.setInterpolator(new LinearInterpolator());
+        motionAnimator.setRepeatCount(ValueAnimator.INFINITE);
+        motionAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 safeCount++;
@@ -320,6 +361,6 @@ public class SafeView extends View {
                 postInvalidate();
             }
         });
-        animator.start();
+        motionAnimator.start();
     }
 }
