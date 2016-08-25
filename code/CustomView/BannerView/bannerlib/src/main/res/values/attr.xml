@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="BannerView">
-
+        <attr name="radius_indicator_selector" format="reference" />
+        <attr name="loop_duration" format="integer" />
+        <attr name="radius_indicator_gravity" format="enum">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
     </declare-styleable>
 </resources>

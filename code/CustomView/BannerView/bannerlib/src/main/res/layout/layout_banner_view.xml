@@ -8,7 +8,6 @@
     <com.aohanyao.bannerlib.BannerViewPager
         android:id="@+id/ncvp"
         android:layout_width="match_parent"
-        android:background="#cdcdcd"
         android:layout_height="match_parent" />
 
     <LinearLayout

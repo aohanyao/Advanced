@@ -7,7 +7,11 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.view.animation.Interpolator;
 
+import com.aohanyao.bannerlib.tran.ScrollerCustomDuration;
+
+import java.lang.reflect.Field;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -22,15 +26,19 @@ public class BannerViewPager extends ViewPager {
     private int count;
     private Timer mTimer;
     private TimerTask mTimerTask;
+    private long mBannerSpeed = 3500;
+    private ScrollerCustomDuration mScroller = null;
+    private boolean isStop = false;
 
     public BannerViewPager(Context context) {
         super(context);
+        postInitViewPager();
     }
 
-    private long mBannerSpeed = 3500;
 
     public BannerViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
+        postInitViewPager();
     }
 
     public void setBannerListener(BannerListener bannerListener) {
@@ -45,23 +53,14 @@ public class BannerViewPager extends ViewPager {
         onPageChangeListener = new OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                if (position == adapter.getCount() - 1) {
-                    if (positionOffsetPixels > .5) {
-                        setCurrentItem(0);
-                    }
-                }
-                if (position == 0) {
-
-                }
             }
 
             @Override
             public void onPageSelected(int position) {
+                setScrollDurationFactor(5);
                 if (bannerListener != null) {
                     bannerListener.onBannerSelector(position);
                 }
-                stopBanner();
-                startBanner(mBannerSpeed);
             }
 
             @Override
@@ -80,6 +79,15 @@ public class BannerViewPager extends ViewPager {
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
 
+                setScrollDurationFactor(0);
+//                stopBanner(isStop);
+                break;
+            case MotionEvent.ACTION_UP:
+//                if (!isStop)
+//                    startBanner(mBannerSpeed);
+                break;
+            case MotionEvent.ACTION_MOVE:
+                stopBanner(isStop);
                 break;
         }
         return super.onTouchEvent(ev);
@@ -118,6 +126,7 @@ public class BannerViewPager extends ViewPager {
             } else {
                 currentItem++;
                 setCurrentItem(currentItem, true);
+
             }
             super.handleMessage(msg);
         }
@@ -125,9 +134,35 @@ public class BannerViewPager extends ViewPager {
 
 
     /**
+     * Override the Scroller instance with our own class so we can change the
+     * duration
+     */
+    private void postInitViewPager() {
+        try {
+            Field scroller = ViewPager.class.getDeclaredField("mScroller");
+            scroller.setAccessible(true);
+            Field interpolator = ViewPager.class.getDeclaredField("sInterpolator");
+            interpolator.setAccessible(true);
+
+            mScroller = new ScrollerCustomDuration(getContext(),
+                    (Interpolator) interpolator.get(null));
+            scroller.set(this, mScroller);
+        } catch (Exception e) {
+        }
+    }
+
+    /**
+     * Set the factor by which the duration will change
+     */
+    public void setScrollDurationFactor(double scrollFactor) {
+       // mScroller.setScrollDurationFactor(scrollFactor);
+    }
+
+    /**
      * 停止自动循环
      */
-    public void stopBanner() {
+    public void stopBanner(boolean isStop) {
+        this.isStop = isStop;
         if (mTimer != null) {
             mTimer.cancel();
             mTimer = null;
