@@ -61,6 +61,7 @@ public class BannerViewPager extends ViewPager {
                 if (bannerListener != null) {
                     bannerListener.onBannerSelector(position);
                 }
+//                startBanner(mBannerSpeed);
             }
 
             @Override
@@ -78,15 +79,15 @@ public class BannerViewPager extends ViewPager {
     public boolean onTouchEvent(MotionEvent ev) {
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
-
-                setScrollDurationFactor(0);
-//                stopBanner(isStop);
+                setScrollDurationFactor(1);
+                stopBanner(isStop);
                 break;
             case MotionEvent.ACTION_UP:
-//                if (!isStop)
-//                    startBanner(mBannerSpeed);
+                if (!isStop)
+                    startBanner(mBannerSpeed);
                 break;
             case MotionEvent.ACTION_MOVE:
+                setScrollDurationFactor(1);
                 stopBanner(isStop);
                 break;
         }
@@ -155,7 +156,7 @@ public class BannerViewPager extends ViewPager {
      * Set the factor by which the duration will change
      */
     public void setScrollDurationFactor(double scrollFactor) {
-       // mScroller.setScrollDurationFactor(scrollFactor);
+        mScroller.setScrollDurationFactor(scrollFactor);
     }
 
     /**

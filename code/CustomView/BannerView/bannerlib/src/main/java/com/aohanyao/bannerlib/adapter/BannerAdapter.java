@@ -15,6 +15,7 @@ import java.util.List;
 
 /***
  * BannerAdapter
+ *
  * @param <T>
  */
 public class BannerAdapter<T> extends PagerAdapter {
@@ -27,31 +28,37 @@ public class BannerAdapter<T> extends PagerAdapter {
     public void setBannerClickListener(BannerClickListener bannerClickListener) {
         this.bannerClickListener = bannerClickListener;
     }
+
     public BannerAdapter(final ViewPager pager, List<T> mDatas, BannerHelper mBannerHelper, Context mContext) {
         super();
         this.mBannerHelper = mBannerHelper;
         this.mContext = mContext;
         int actualNoOfIDs = mDatas.size();
         count = actualNoOfIDs + 2;
+
+        T t = mDatas.get(0);//获取到第一个
+        T t1 = mDatas.get(mDatas.size() - 1);//获取到最后一个
+
         this.mDatas = mDatas;
-        this.mDatas.add(mDatas.size(), mDatas.get(0));
-        this.mDatas.add(0, mDatas.get(mDatas.size() - 1));
+        this.mDatas.add(mDatas.size(), t);
+        this.mDatas.add(0, t1);
 
         pager.addOnPageChangeListener(new OnPageChangeListener() {
             @Override
-            public void onPageSelected(int position) {
-                int pageCount = getCount();
-                if (position == 0) {
-                    pager.setCurrentItem(pageCount - 2, false);
-                } else if (position == pageCount - 1) {
-                    //延时切换，避免闪烁
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
+            public void onPageSelected(final int position) {
+                final int pageCount = getCount();
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (position == 0) {
+                            pager.setCurrentItem(pageCount - 2, false);
+                        } else if (position == pageCount - 1) {
+                            //延时切换，避免闪烁
                             pager.setCurrentItem(1, false);
                         }
-                    },600);
-                }
+                    }
+                }, 600);
+
             }
 
             @Override
@@ -69,10 +76,10 @@ public class BannerAdapter<T> extends PagerAdapter {
     }
 
     public Object instantiateItem(View container, int position) {
-      final   View view = mBannerHelper.getView(mContext, mDatas.get(position));
+        final View view = mBannerHelper.getView(mContext, mDatas.get(position));
         view.setFocusable(true);
         view.setClickable(true);
-        view.setTag(position-1);
+        view.setTag(position - 1);
         if (bannerClickListener != null) {
             view.setOnClickListener(new View.OnClickListener() {
                 @Override

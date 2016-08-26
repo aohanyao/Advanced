@@ -15,7 +15,7 @@
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        app:loop_duration="3500"
+        app:loop_duration="3000"
         app:radius_indicator_gravity="center"
         app:radius_indicator_selector="@drawable/sample_page_indicator_selector" />
 </LinearLayout>
