@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>slideToggle动画</title>
+        <script src="../JS/js/jquery-2.1.1.js" charset="utf-8"></script>
+        <style media="screen">
+            .cc {
+                width: 300px;
+                height: 300px;
+                margin: 100px auto;
+                background: #03a9f4;
+            }
+            button {
+                margin: 100px auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="cc"></div>
+        <button type="button" name="button">开始动画</button>
+        <script type="text/javascript">
+            $("button").click(function() {
+                $("div").slideToggle(800);
+            });
+        </script>
+    </body>
+</html>

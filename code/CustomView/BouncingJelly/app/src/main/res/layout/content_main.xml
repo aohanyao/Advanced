@@ -9,6 +9,7 @@
     android:fadingEdge="none"
     android:orientation="vertical"
     android:overScrollMode="never"
+    app:BouncingDuration="300"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.aohanyao.bouncingjelly.MainActivity"
     tools:showIn="@layout/activity_main">
@@ -29,7 +30,6 @@
         <include layout="@layout/layout_setting_item" />
 
         <include layout="@layout/layout_setting_item" />
-
         <include layout="@layout/layout_setting_item" />
 
         <include layout="@layout/layout_setting_item" />
@@ -41,45 +41,6 @@
         <include layout="@layout/layout_setting_item" />
 
         <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
-        <include layout="@layout/layout_setting_item" />
-
         <include layout="@layout/layout_setting_item" />
 
         <include layout="@layout/layout_setting_item" />

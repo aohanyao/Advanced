@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>remove和empty的区别</title>
+        <script src="../JS/js/jquery-2.1.1.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <button type="button" name="button" id="btnRemove">remove方法移除</button>
+
+        <button type="button" name="button" id="btnEmpty">empty方法移除</button>
+        <div class="cRemove">
+            <p>
+                remove
+            </p>
+            <p>
+                remove
+            </p>
+
+        </div>
+        <div class="cEmpty">
+            <p>
+                remove
+            </p>
+            <p>
+                remove
+            </p>
+
+        </div>
+
+        <script type="text/javascript">
+            var $btnRemove = $("#btnRemove");
+            var $btnEmpty = $("#btnEmpty");
+            $btnRemove.on("click", function() {
+                $(".cRemove:first").remove();
+            });
+            $btnEmpty.on("click", function() {
+                $(".cEmpty").empty();
+            });
+        </script>
+    </body>
+</html>

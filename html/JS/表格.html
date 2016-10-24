@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            new document
+        </title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <script type="text/javascript">
+
+            function initMouse(obj) {
+
+                obj.onmouseover = function() {
+                    this.style.background = "#f60";
+                };
+                obj.onmouseout = function() {
+                    this.style.background = "#fff";
+                }
+            }
+            window.onload = function() {
+
+                // 鼠标移动改变背景,可以通过给每行绑定鼠标移上事件和鼠标移除事件来改变所在行背景色。
+
+                var mTr = document.getElementsByTagName("tr");
+                for (var i = 1; i < mTr.length; i++) {initMouse(mTr[i]);}
+
+            }
+
+            function addLine() {
+                var mTable = document.getElementById("table");
+                var mtr = document.createElement("tr");
+
+                var mtd1 = document.createElement("td");
+                var mText1 = document.createTextNode("测试学号");
+                mtd1.appendChild(mText1);
+
+                var mtd2 = document.createElement("td");
+                var mTex2 = document.createTextNode("测试姓名");
+                mtd2.appendChild(mTex2);
+
+                var mtd3 = document.createElement("td");
+
+                var mAText = document.createTextNode("删除");
+
+
+                mtd3.innerHTML="<a href=\"javascript:;\" onclick=\"deleteLine(this)\">删除</a>"
+                mtr.appendChild(mtd1);
+                mtr.appendChild(mtd2);
+                mtr.appendChild(mtd3);
+
+                mTable.appendChild(mtr);
+                initMouse(mtr);
+            }
+
+            function deleteLine(obj) {
+                var mtr = obj.parentNode.parentNode;
+
+                mtr.parentNode.removeChild(mtr);
+            }
+        </script>
+    </head>
+    <body>
+        <table border="1" width="50%" id="table">
+            <tr >
+                <th>学号</th>
+                <th>姓名</th>
+                <th>操作</th>
+            </tr>
+
+            <tr>
+                <td>xh001</td>
+                <td>王小明</td>
+                <td>
+                    <a href="javascript:;" onclick="deleteLine(this)">删除</a>
+                </td>
+                <!--在删除按钮上添加点击事件  -->
+            </tr>
+
+            <tr>
+                <td>xh002</td>
+                <td>刘小芳</td>
+                <td>
+                    <a href="javascript:;" onclick="deleteLine(this)">删除</a>
+                </td>
+                <!--在删除按钮上添加点击事件  -->
+            </tr>
+
+        </table>
+        <input type="button" value="添加一行" onclick="addLine();"/>
+        <!--在添加按钮上添加点击事件  -->
+    </body>
+</html>

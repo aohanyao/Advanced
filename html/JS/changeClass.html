@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>更改样式</title>
+        <style media="screen">
+            .one {
+                width: 200px;
+                height: 200px;
+                background: #03a9f4;
+                margin: 100 auto;
+            }
+            .two {
+                width: 500px;
+                height: 500px;
+                background-color: #f60;
+                margin: 0 auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <input type="button" name="name" value="更改样式" onclick="changeDivFounction();"><br>
+
+        <div class="one" id="changeDiv"></div>
+        <script type="text/javascript">
+            function changeDivFounction() {
+                var changeDiv = document.getElementById("changeDiv");
+                var classNameT = changeDiv.className;
+                if (classNameT == "one") {
+                    changeDiv.className = "two";
+                } else {
+                    changeDiv.className = "one";
+                }
+            }
+        </script>
+    </body>
+</html>

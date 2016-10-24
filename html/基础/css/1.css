@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0;}
+header{
+  height: 150px;
+  background-color: #03a9f4;
+}
+.mainContent{
+  width: 80%;
+  margin: 0 auto;
+  height: 700px;
+}
+footer{
+  height: 150px;
+  background-color: #03a9f4;
+}
+
+.leftContent{
+  width: 30%;
+  height: 100%;
+  float: left;
+  background: #ccc;
+}
+.rightContent{
+  width: 70%;
+  height: 100%;
+  float: right;
+  background: #ddd;
+}
+.rightContent  .rightContentTop{
+  height: 10%;
+  background: #999;
+}
+.rightContent .rightContentBottom{
+  background: #f63;
+  height: 90%;
+}

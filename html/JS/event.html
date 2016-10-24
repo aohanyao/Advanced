@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>事件</title>
+
+    </head>
+    <body>
+        <input type="button" name="name" value="倒计时" onclick="onC();" id="btnOnclick">
+        <script type="text/javascript">
+            var dd;
+            var timed = 10;
+            function onC() {
+                timed = 10;
+                clearInterval(dd);
+                dd = setInterval(daojishi, 1000);
+            }
+            function daojishi() {
+                //alert("提示")
+                timed--;
+                var btn = document.getElementById("btnOnclick")
+                btn.value = timed + "秒";
+                btn.style.enable = false;
+                if (timed <= 0) {
+                    clearInterval(dd);
+                }
+            }
+        </script>
+    </body>
+</html>

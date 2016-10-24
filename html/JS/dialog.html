@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>弹出窗口</title>
+        <script type="text/javascript">
+            function comfig() {
+                if (confirm("你的选择是什么")) {
+                    alert("你选择了确定");
+                } else {
+                    alert("你选择了取消");
+                }
+            }
+            function inputDialog() {
+                var message = prompt("你为什么要学习javascript?", "为了钱，为了不丢工作");
+                if (message == null) {
+                    alert("您并没有输入信息");
+                } else {
+                    alert("你输入的信息是：" + message);
+                }
+            }
+            function openWindows(){
+              window.open("www.baidu.com","百度","");
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button" name="" value="点击我弹出确定窗口" onclick="comfig();"><br>
+        <input type="button" name="name" value="输入窗口" onclick="inputDialog();"><br>
+        <input type="button" name="name" value="打开窗口" onclick="openWindows();">
+    </body>
+</html>

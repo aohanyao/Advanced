@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>动态创建元素节点</title>
+        <style media="screen">
+            .left,
+            .right {
+                width: 300px;
+                height: 120px;
+            }
+            .left div,
+            .right div {
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                margin: 5px;
+                float: left;
+                border: 1px solid #ccc;
+            }
+            .left div {
+                background: #bbffaa;
+            }
+            .right div {
+                background: yellow;
+            }
+            .hover{
+              background-color: #f60;
+            }
+            .out{
+              background-color: #03a9f4;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>动态创建元素节点</h2>
+        <div class="left">
+            <div class="aaron">
+                点击body区域会创建元素节点
+            </div>
+        </div>
+        <script type="text/javascript">
+            var body = document.querySelector("body");
+            document.addEventListener("click", function() {
+                var rightDiv = document.createElement("div");
+                var leftDiv = document.createElement("div");
+
+                rightDiv.setAttribute("class", "right");
+                leftDiv.className = "arron";
+                leftDiv.innerHTML = "动态创建DIV元素节点";
+                rightDiv.appendChild(leftDiv);
+                body.appendChild(rightDiv);
+
+                // rightDiv.addEventListener("onmouseover",function(){
+                //   rightDiv.setAttribute("class","hover")
+                // },false);
+            }, false);
+        </script>
+    </body>
+</html>

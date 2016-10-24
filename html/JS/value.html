@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>获取值</title>
+        <script type="text/javascript">
+            function getValue() {
+                var nameValue = document.getElementById("nameId").value;
+                var resultSpan = document.getElementById("result");
+                // alert(nameValue);
+                resultSpan.style.color = "#f60";
+                resultSpan.style.fontSize = "25px";
+                resultSpan.innerHTML = "你输入的内容是：" + nameValue
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" name="name" value="" id="nameId">
+        <input type="button" name="name" value="点击获取输入的值" onclick="getValue();">
+        <span id="result"></span>
+    </body>
+</html>

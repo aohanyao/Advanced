@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>首页</title>
+        <script src="../JS/js/jquery-2.1.1.js" charset="utf-8"></script>
+        <script src="js/jquery.mobile.custom.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="css/jquery.mobile.custom.structure.css" media="screen" title="no title">
+        <link rel="stylesheet" href="css/jquery.mobile.custom.theme.css" media="screen" title="no title">
+        <style media="screen">
+            .header {
+                background-color: #2196f3;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="pageNone" data-role="page">
+            <div class=".header" data-role="header">
+                <a href="serach.html" data-icon="search">搜索</a>
+            </div>
+            <div class="" data-role="content">
+                <h1>这是内容</h1>
+                <a href="#pageTwo" data-role="button" data-transition="pop" data-direction="reverse" data-inline="true">转往第二页</a>
+            </div>
+            <div class="" data-role="footer">
+                <h1>这脚部</h1>
+            </div>
+        </div>
+        <div id="pageTwo" data-role="page">
+            <div class=".header" data-role="header">
+                <h1>第二页</h1>
+            </div>
+            <div class="" data-role="content">
+                <h1>这是内容</h1>
+                <a href="#pageNone" data-transition="slide" data-direction="reverse" data-role="button" data-inline="true">转往第一页</a>
+            </div>
+            <div class="" data-role="footer">
+                <h1>这脚部</h1>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>显示与隐藏</title>
+
+        <script type="text/javascript">
+            function disAndEn() {
+                var divTest = document.getElementById("ddd");
+                var dis = divTest.style.display;
+                divTest.style.display = "none"
+                if (dis == "block") {
+                    divTest.style.display = "none;"
+                } else {
+                    divTest.style.display = "block";
+                }
+            }
+        </script>
+        <style media="screen">
+            .test1 {
+                width: 200px;
+                height: 200px;
+                background: #03a9f4;
+                margin: 0 auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <input type="button" name="name" value="显示与隐藏" onclick="disAndEn();"><br>
+
+        <div class="test1" id="ddd"></div>
+    </body>
+</html>

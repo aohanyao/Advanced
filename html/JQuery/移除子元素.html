@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>移除子元素</title>
+        <script src="../JS/js/jquery-2.1.1.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="removeChild">
+            <p>
+                我是内部的文字
+            </p>
+        </div>
+        <button type="button" name="button" id="btnRemove">点击移除</button>
+        <button type="button" name="button" id="btnAdd">点击增加</button>
+        <script type="text/javascript">
+            var $div = $("#removeChild");
+            var $btnRemove = $("#btnRemove");
+            var $btnAdd = $("#btnAdd");
+
+            $btnRemove.on("click", function() {
+                $div.empty();
+                // $div.detach();
+            });
+            $btnAdd.on("click", function() {
+                var p = $("<p>我是JQuery添加的节点元素</p>");
+                $div.append(p);
+            });
+        </script>
+    </body>
+</html>
