@@ -32,18 +32,20 @@ public class Practice9DrawPathView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         mPaint.setAntiAlias(true);
-        RectF mArcLine = new RectF(200, 0, 400, 200);
         mPaint.setStrokeWidth(2f);
 //        练习内容：使用 canvas.drawPath() 方法画心形
         //1.移动到中间
-        mPath.moveTo(mWidth * 0.4f, 100);
+//        mPath.moveTo(mWidth * 0.4f, 100);
         //2.先绘制左边的圆
-        mPath.addArc(mArcLine, -225, 225);
 
         //绘制右边的圆
-        mPaint.setColor(Color.YELLOW);
-        mPath.arcTo(400, 0, 200, 400, -225, 225, false);
+        mPath.addArc(200, 0, 400, 200, -225, 225);
+        mPath.arcTo (400, 0, 600, 200,  -180, 225, false);
+        //mPath.addArc(200, 20, 400, 220, -225, 225);
+//        mPath.arcTo (400, 20, 600, 220, -180, 225, false);
+        mPath.lineTo(400,342);
         canvas.drawPath(mPath, mPaint);
+
 
     }
 
