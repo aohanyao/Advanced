@@ -28,6 +28,7 @@ public class Practice10HistogramView extends View {
 
     public Practice10HistogramView(Context context) {
         super(context);
+
     }
 
     public Practice10HistogramView(Context context, @Nullable AttributeSet attrs) {
@@ -46,7 +47,7 @@ public class Practice10HistogramView extends View {
 //        练习内容：使用各种 Canvas.drawXXX() 方法画直方图
         //1. 绘制左边的竖线
         mPaint.setColor(Color.WHITE);
-        mPaint.setTextSize(15f);
+        mPaint.setTextSize(18f);
         float strokeWidth = 2f;
         mPaint.setStrokeWidth(strokeWidth);
         canvas.drawLine(mHorizalMargin, mTopMargin, mHorizalMargin, mTopMargin + mChatYAxisHeight, mPaint);
@@ -59,7 +60,7 @@ public class Practice10HistogramView extends View {
 
         //3. 绘制直方图
         for (int i = 0; i < mChatCount; i++) {
-            mPaint.setColor(Color.GREEN);
+            mPaint.setColor(0x8800FF00);
             //X轴的坐标1
             float xAxis = mHorizalMargin + strokeWidth + ((i + 1) * mChatMargin) + mChatWidth * i;
             //当前随机出来的高度
@@ -80,7 +81,10 @@ public class Practice10HistogramView extends View {
             //测量文字的宽高
             mPaint.getTextBounds(label, 0, label.length(), mTextRect);
             float mTextSpace = mChatWidth - mTextRect.width();
-            canvas.drawText(label, xAxis +mTextSpace/2,mChatYAxisHeight + mTopMargin+mTextRect.height()*2,mPaint);
+            canvas.drawText(label,
+                    xAxis + mTextSpace / 2,
+                    mChatYAxisHeight + mTopMargin + 20,
+                    mPaint);
         }
     }
 
