@@ -23,7 +23,11 @@ public class Practice13ShadowLayerView extends View {
     }
 
     {
+        setLayerType(LAYER_TYPE_SOFTWARE, null); // 硬件加速下 ComposeShader 不能使用两个同类型的 Shader
+
         // 使用 Paint.setShadowLayer() 设置阴影
+        paint.setShadowLayer(10, 0, 0, 0xff03a4f9);
+
     }
 
     @Override
@@ -32,5 +36,10 @@ public class Practice13ShadowLayerView extends View {
 
         paint.setTextSize(120);
         canvas.drawText("Hello HenCoder", 50, 200, paint);
+
+        paint.setStrokeWidth(20);
+
+        paint.setStyle(Paint.Style.STROKE);
+        canvas.drawArc(50, 250, 300, 400, 0, 360, false, paint);
     }
 }

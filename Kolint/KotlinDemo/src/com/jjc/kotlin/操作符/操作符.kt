@@ -20,4 +20,8 @@ fun main(args: Array<String>) {
     }
 
     System.out.print(fold1)
+
+    list.apply {
+        size
+    }
 }

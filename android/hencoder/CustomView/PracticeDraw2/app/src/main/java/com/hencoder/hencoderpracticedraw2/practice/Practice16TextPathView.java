@@ -30,8 +30,9 @@ public class Practice16TextPathView extends View {
         paint.setTextSize(120);
 
         // 使用 Paint.getTextPath() 来获取文字的 Path
-
+        paint.getTextPath(text, 0, text.length(), 50, 400, textPath);
         pathPaint.setStyle(Paint.Style.STROKE);
+        pathPaint.setAntiAlias(true);
     }
 
     @Override
@@ -40,6 +41,7 @@ public class Practice16TextPathView extends View {
 
         canvas.drawText(text, 50, 200, paint);
 
+        paint.setStrokeWidth(4f);
         canvas.drawPath(textPath, pathPaint);
     }
 }

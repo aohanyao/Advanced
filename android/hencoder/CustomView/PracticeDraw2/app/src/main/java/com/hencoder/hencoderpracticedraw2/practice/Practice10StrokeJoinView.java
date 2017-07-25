@@ -8,6 +8,9 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
+/**
+ * 转角样式
+ */
 public class Practice10StrokeJoinView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Path path = new Path();
@@ -41,15 +44,18 @@ public class Practice10StrokeJoinView extends View {
         // 使用 Paint.setStrokeJoin() 来设置不同的拐角形状
 
         canvas.translate(100, 100);
-        // 第一种形状：MITER
+        // 第一种形状：MITER//尖角
+        paint.setStrokeJoin(Paint.Join.MITER);
         canvas.drawPath(path, paint);
 
         canvas.translate(300, 0);
-        // 第二种形状：BEVEL
+        // 第二种形状：BEVEL//平角
+        paint.setStrokeJoin(Paint.Join.BEVEL);
         canvas.drawPath(path, paint);
 
         canvas.translate(300, 0);
-        // 第三种形状：ROUND
+        // 第三种形状：ROUND//圆角
+        paint.setStrokeJoin(Paint.Join.ROUND);
         canvas.drawPath(path, paint);
 
         canvas.restore();
