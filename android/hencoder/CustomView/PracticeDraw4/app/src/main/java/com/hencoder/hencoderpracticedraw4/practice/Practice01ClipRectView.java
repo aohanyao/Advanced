@@ -35,9 +35,17 @@ public class Practice01ClipRectView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+
+        canvas.save();
         int left = (getWidth() - bitmap.getWidth()) / 2;
         int top = (getHeight() - bitmap.getHeight()) / 2;
 
+        //相当于创建一个矩形，按照这个矩形所在的区域进行裁剪 所以方法名称叫做 clipRect
+        //原先的左边角，增加40  上边角增加40 原宽高不变
+        canvas.clipRect(left + 40, top + 40, getWidth(), getHeight());
+
+
         canvas.drawBitmap(bitmap, left, top, paint);
+        canvas.restore();
     }
 }

@@ -15,8 +15,8 @@ import com.hencoder.hencoderpracticedraw4.R;
 public class Practice05RotateView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Bitmap bitmap;
-    Point point1 = new Point(200, 200);
-    Point point2 = new Point(600, 200);
+    Point point1 = new Point(100, 100);
+    Point point2 = new Point(400, 100);
 
     public Practice05RotateView(Context context) {
         super(context);
@@ -37,8 +37,15 @@ public class Practice05RotateView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
+        canvas.save();
+        canvas.rotate(180, point1.x + bitmap.getHeight() / 2, point1.y + bitmap.getHeight() / 2);
         canvas.drawBitmap(bitmap, point1.x, point1.y, paint);
+        canvas.restore();
+
+
+        canvas.save();
+        canvas.rotate(45, point2.x + bitmap.getWidth() / 2, point2.y + bitmap.getHeight() / 2);
         canvas.drawBitmap(bitmap, point2.x, point2.y, paint);
+        canvas.restore();
     }
 }

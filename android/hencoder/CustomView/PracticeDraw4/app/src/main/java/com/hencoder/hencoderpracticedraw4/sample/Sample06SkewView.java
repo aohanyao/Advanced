@@ -15,8 +15,8 @@ import com.hencoder.hencoderpracticedraw4.R;
 public class Sample06SkewView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Bitmap bitmap;
-    Point point1 = new Point(200, 200);
-    Point point2 = new Point(600, 200);
+    Point point1 = new Point(100, 100);
+    Point point2 = new Point(400, 100);
 
     public Sample06SkewView(Context context) {
         super(context);

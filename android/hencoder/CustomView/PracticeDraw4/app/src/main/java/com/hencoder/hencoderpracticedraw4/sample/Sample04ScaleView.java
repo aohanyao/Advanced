@@ -6,7 +6,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Point;
-import android.graphics.Typeface;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
@@ -16,9 +15,8 @@ import com.hencoder.hencoderpracticedraw4.R;
 public class Sample04ScaleView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Bitmap bitmap;
-    Point point1 = new Point(200, 200);
-    Point point2 = new Point(600, 200);
-
+    Point point1 = new Point(100, 100);
+    Point point2 = new Point(400, 100);
     public Sample04ScaleView(Context context) {
         super(context);
     }
