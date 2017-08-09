@@ -65,23 +65,17 @@ public class Practice14FlipboardView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        //上半部分保持不动，截取下班部分来进行X轴的旋转
+        //camera的坐标轴在第一象限
+        //view的坐标系在第四象限
+
         int bitmapWidth = bitmap.getWidth();
         int bitmapHeight = bitmap.getHeight();
         int centerX = getWidth() / 2;
         int centerY = getHeight() / 2;
         int x = centerX - bitmapWidth / 2;
         int y = centerY - bitmapHeight / 2;
-
-        canvas.save();
-
-        camera.save();
-        camera.rotateX(degree);
-        canvas.translate(centerX, centerY);
-        camera.applyToCanvas(canvas);
-        canvas.translate(-centerX, -centerY);
-        camera.restore();
-
-        canvas.drawBitmap(bitmap, x, y, paint);
-        canvas.restore();
+        // 第一遍绘制：上半部分
+        //绘制下半部分
     }
 }
