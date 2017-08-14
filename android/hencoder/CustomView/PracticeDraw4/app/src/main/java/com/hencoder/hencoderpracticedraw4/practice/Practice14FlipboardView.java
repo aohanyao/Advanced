@@ -65,7 +65,7 @@ public class Practice14FlipboardView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        //上半部分保持不动，截取下班部分来进行X轴的旋转
+        //上半部分保持不动，截取下半部分来进行X轴的旋转
         //camera的坐标轴在第一象限
         //view的坐标系在第四象限
 
@@ -75,6 +75,11 @@ public class Practice14FlipboardView extends View {
         int centerY = getHeight() / 2;
         int x = centerX - bitmapWidth / 2;
         int y = centerY - bitmapHeight / 2;
+        canvas.save();
+        canvas.clipRect(0, 0, getWidth(), y);
+        canvas.drawBitmap(bitmap, x, 10, paint);
+        canvas.restore();
+
         // 第一遍绘制：上半部分
         //绘制下半部分
     }
