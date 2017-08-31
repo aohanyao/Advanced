@@ -69,18 +69,46 @@ public class Practice14FlipboardView extends View {
         //camera的坐标轴在第一象限
         //view的坐标系在第四象限
 
+
         int bitmapWidth = bitmap.getWidth();
         int bitmapHeight = bitmap.getHeight();
         int centerX = getWidth() / 2;
         int centerY = getHeight() / 2;
         int x = centerX - bitmapWidth / 2;
         int y = centerY - bitmapHeight / 2;
+
+
+        //绘制上半部分，裁剪
         canvas.save();
-        canvas.clipRect(0, 0, getWidth(), y);
-        canvas.drawBitmap(bitmap, x, 10, paint);
+        //裁剪整个view的一半，
+        canvas.clipRect(0, 0, getWidth(), centerY);
+        canvas.drawBitmap(bitmap, getWidth() / 2 - bitmap.getWidth() / 2, 0, paint);
+
         canvas.restore();
 
-        // 第一遍绘制：上半部分
-        //绘制下半部分
+
+//        // 第一遍绘制：上半部分
+//        canvas.save();
+//        canvas.clipRect(0, 0, getWidth(), centerY);
+//        canvas.drawBitmap(bitmap, x, y, paint);
+//        canvas.restore();
+//
+//        // 第二遍绘制：下半部分
+//        canvas.save();
+//
+//        if (degree < 90) {
+//            canvas.clipRect(0, centerY, getWidth(), getHeight());
+//        } else {
+//            canvas.clipRect(0, 0, getWidth(), centerY);
+//        }
+//        camera.save();
+//        camera.rotateX(degree);
+//        canvas.translate(centerX, centerY);
+//        camera.applyToCanvas(canvas);
+//        canvas.translate(-centerX, -centerY);
+//        camera.restore();
+//
+//        canvas.drawBitmap(bitmap, x, y, paint);
+//        canvas.restore();
     }
 }
