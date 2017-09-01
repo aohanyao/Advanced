@@ -10,12 +10,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Sample1$RequestTest.coverage" NAME="RequestTest Coverage Results" MODIFIED="1502249787369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/requests" />
     <SUITE FILE_PATH="coverage/Sample1$TestExtend.coverage" NAME="TestExtend Coverage Results" MODIFIED="1504241391455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p4" />
     <SUITE FILE_PATH="coverage/Sample1$ReqXpath.coverage" NAME="ReqXpath Coverage Results" MODIFIED="1502705129864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/requests" />
-    <SUITE FILE_PATH="coverage/Sample1$PresonInfo.coverage" NAME="PresonInfo Coverage Results" MODIFIED="1502247865536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p1" />
+    <SUITE FILE_PATH="coverage/Sample1$P5_2.coverage" NAME="P5_2 Coverage Results" MODIFIED="1504260482111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p5" />
     <SUITE FILE_PATH="coverage/Sample1$Urllib1.coverage" NAME="Urllib1 Coverage Results" MODIFIED="1502249028467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p2" />
     <SUITE FILE_PATH="coverage/Sample1$Sliper1.coverage" NAME="Sliper1 Coverage Results" MODIFIED="1502705066637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p3" />
+    <SUITE FILE_PATH="coverage/Sample1$P5_1.coverage" NAME="P5_1 Coverage Results" MODIFIED="1504260298912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p5" />
+    <SUITE FILE_PATH="coverage/Sample1$RequestTest.coverage" NAME="RequestTest Coverage Results" MODIFIED="1502249787369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/requests" />
+    <SUITE FILE_PATH="coverage/Sample1$SpiderMain.coverage" NAME="SpiderMain Coverage Results" MODIFIED="1504262220553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/rent" />
+    <SUITE FILE_PATH="coverage/Sample1$PresonInfo.coverage" NAME="PresonInfo Coverage Results" MODIFIED="1502247865536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p1" />
+    <SUITE FILE_PATH="coverage/Sample1$P5.coverage" NAME="P5 Coverage Results" MODIFIED="1504259492262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p5" />
     <SUITE FILE_PATH="coverage/Sample1$ChromeXpath.coverage" NAME="ChromeXpath Coverage Results" MODIFIED="1504242294666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/p4" />
     <SUITE FILE_PATH="coverage/Sample1$app.coverage" NAME="app Coverage Results" MODIFIED="1502093821512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup" />
     <SUITE FILE_PATH="coverage/Sample1$DouBna.coverage" NAME="DouBna Coverage Results" MODIFIED="1502705030073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup/com/jjc/practice/requests" />
@@ -36,33 +40,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChromeXpath.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/ChromeXpath.py">
+      <file leaf-file-name="PagerSpider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/rent/PagerSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Get58Ui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/Get58Ui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="498">
+              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#109#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestExtend.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/TestExtend.py">
+      <file leaf-file-name="SpiderMain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/rent/SpiderMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,6 +90,11 @@
         <option value="$PROJECT_DIR$/backup/com/jjc/practice/p4/Get58Ui.py" />
         <option value="$PROJECT_DIR$/backup/com/jjc/practice/p4/TestExtend.py" />
         <option value="$PROJECT_DIR$/backup/com/jjc/practice/p4/ChromeXpath.py" />
+        <option value="$PROJECT_DIR$/backup/com/jjc/practice/p5/P5.py" />
+        <option value="$PROJECT_DIR$/backup/com/jjc/practice/p5/P5_1.py" />
+        <option value="$PROJECT_DIR$/backup/com/jjc/practice/p5/P5_2.py" />
+        <option value="$PROJECT_DIR$/backup/com/jjc/practice/rent/SpiderMain.py" />
+        <option value="$PROJECT_DIR$/backup/com/jjc/practice/rent/PagerSpider.py" />
       </list>
     </option>
   </component>
@@ -105,7 +104,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="592" />
     <option name="y" value="42" />
     <option name="width" value="1400" />
@@ -193,7 +192,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jjc" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
+              <item name="rent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ChromeXpath">
+  <component name="RunManager" selected="Python.SpiderMain">
     <configuration name="ChromeXpath" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,74 +243,74 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="DouBna" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="P5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/p5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sample1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/requests/DouBna.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/p5/P5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ReqXpath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="P5_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/p5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sample1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/requests/ReqXpath.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/p5/P5_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Sliper1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="P5_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/p3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/p5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sample1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/p3/Sliper1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/p5/P5_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="TestExtend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SpiderMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/p4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup/com/jjc/practice/rent" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sample1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/p4/TestExtend.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/com/jjc/practice/rent/SpiderMain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,19 +400,19 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Sliper1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ReqXpath" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DouBna" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ChromeXpath" />
-      <item index="4" class="java.lang.String" itemvalue="Python.TestExtend" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ChromeXpath" />
+      <item index="1" class="java.lang.String" itemvalue="Python.P5" />
+      <item index="2" class="java.lang.String" itemvalue="Python.P5_1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.P5_2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SpiderMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ChromeXpath" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TestExtend" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ReqXpath" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Sliper1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.DouBna" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SpiderMain" />
+        <item index="1" class="java.lang.String" itemvalue="Python.P5_2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.P5_1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.P5" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ChromeXpath" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +442,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -452,7 +451,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42028984" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4303233" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34336677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -475,7 +474,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42028984" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4303233" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34336677" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -499,6 +498,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/ChromeXpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/Get58Ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/TestExtend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/ChromeXpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -774,29 +799,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/TestExtend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p5/P5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p5/P5_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p5/P5_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/Get58Ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/TestExtend.py">
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/ChromeXpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/p4/ChromeXpath.py">
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/rent/SpiderMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/com/jjc/practice/rent/PagerSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#109#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
