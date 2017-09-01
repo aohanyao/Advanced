@@ -1,14 +1,6 @@
-from lxml import etree
+from backup.com.jjc.practice.p4.Get58Ui import Get58Ui
 
-import requests
-
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
-}
-r = requests.get("http://sz.58.com/xixiangsz/chuzu/0/b9", headers=headers)
-content = r.content
-html = etree.HTML(content)
-listUl = html.xpath("/html/body/div[3]/div[1]/div[5]/div[2]/ul/li")
+listUl = Get58Ui().getUl("http://sz.58.com/xixiangsz/chuzu/0/b9")
 
 for li in listUl:
     try:
@@ -37,5 +29,5 @@ for li in listUl:
         print("地址：", add.strip())
         print("来源：", master.strip("："))
         print("--------------end---------------\n")
-    except:
-        print("发生错误")
+    except Exception as e:
+        print("发生错误", e)
