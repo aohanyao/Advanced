@@ -7,11 +7,13 @@ class RentDetails:
     name = ""
     money = ""
     room = ""
-    add = ""
+    address = ""
+    master = ""
 
-    def __init__(self, link, name, money, room, add):
+    def __init__(self, link, name, money, room, address, master):
         self.link = link
         self.name = name
         self.money = money
         self.room = room
-        self.add = add
+        self.address = address
+        self.master = master
