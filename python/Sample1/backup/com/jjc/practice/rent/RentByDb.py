@@ -50,6 +50,8 @@ def spiderDetails(urls):
     :param urls: 目标url
     :return:
     """
+    for url in urls:
+        print(url)
 
 
 if __name__ == "__main__":
