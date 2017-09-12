@@ -1,5 +1,6 @@
 package com.hencoder.hencoderpracticedraw7.practice.practice01;
 
+import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
@@ -39,6 +40,7 @@ public class Practice01ArgbEvaluatorLayout extends RelativeLayout {
                 ObjectAnimator animator = ObjectAnimator.ofInt(view, "color", 0xffff0000, 0xff00ff00);
                 // 在这里使用 ObjectAnimator.setEvaluator() 来设置 ArgbEvaluator，修复闪烁问题
                 animator.setInterpolator(new LinearInterpolator());
+                animator.setEvaluator(new ArgbEvaluator());
                 animator.setDuration(2000);
                 animator.start();
             }
