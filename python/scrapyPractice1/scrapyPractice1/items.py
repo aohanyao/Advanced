@@ -8,7 +8,20 @@
 import scrapy
 
 
-class Scrapypractice1Item(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+#
+# class Scrapypractice1Item(scrapy.Item):
+#     # define the fields for your item here like:
+#     # name = scrapy.Field()
+#     pass
+#
+
+class RentDetails(scrapy.Item):
+    """
+    58租房的数据
+    """
+    link = scrapy.Field()
+    name = scrapy.Field()
+    money = scrapy.Field()
+    room = scrapy.Field()
+    address = scrapy.Field()
+    master = scrapy.Field()
