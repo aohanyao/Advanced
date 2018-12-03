@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jc.adv.l10.ui.TagLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="苹果" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="句子" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="哈密瓜" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="海南橡胶" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="宏处理" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="黑龙江" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+    <com.jc.adv.l10.ui.TagChildView
+        style="@style/TagTagChildViewStyle"
+        android:text="广东" />
+
+
+</com.jc.adv.l10.ui.TagLayout>
