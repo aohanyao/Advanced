@@ -39,8 +39,8 @@ public class TagLayout extends ViewGroup {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         // 1. 测量高度，测量宽度
         // 2. 同一行中高度最高的是高度，宽度不能大于View的宽度
-        // 总高度
-        float sumHeight = 0;
+        // 总宽度
+        float sumWidth = 0;
         // 行高度
         float lineHeight = 0;
         // 已经使用的宽度
@@ -60,10 +60,17 @@ public class TagLayout extends ViewGroup {
             // 测量子view
             measureChildWithMargins(childView, widthMeasureSpec, 0, heightMeasureSpec, heightUse);
 
-            // 进行换行处理
-            if ((widhtUse + childView.getMeasuredWidth() > widhtSpec)) {
+            // 获取到margin
+            MarginLayoutParams layoutParams = (MarginLayoutParams) childView.getLayoutParams();
+
+
+            // 进行换行处理   加上了左右的的外边距
+            if ((widhtUse + childView.getMeasuredWidth() + layoutParams.leftMargin
+                    + layoutParams.rightMargin > widhtSpec)) {
                 // 增加高度
                 heightUse = (int) (heightUse + lineHeight);
+                // 宽度
+                sumWidth = Math.max(sumWidth, widhtUse);
                 widhtUse = 0;
                 // 重新处理
                 measureChildWithMargins(childView, widthMeasureSpec, 0, heightMeasureSpec, heightUse);
@@ -80,18 +87,20 @@ public class TagLayout extends ViewGroup {
             }
 
             // 设置位置
-            bound.left = widhtUse;
-            bound.top = heightUse;
-            bound.right = widhtUse + childView.getMeasuredWidth();
-            bound.bottom = heightUse + childView.getMeasuredHeight();
+            bound.left = widhtUse + layoutParams.leftMargin;
+            bound.top = heightUse + layoutParams.topMargin;
+            bound.right = widhtUse + childView.getMeasuredWidth() + layoutParams.rightMargin;
+            bound.bottom = heightUse + childView.getMeasuredHeight() + layoutParams.bottomMargin;
 
             // 对比行高
-            lineHeight = Math.max(childView.getMeasuredHeight(), lineHeight);
+            lineHeight = Math.max(childView.getMeasuredHeight() + layoutParams.bottomMargin + layoutParams.topMargin,
+                    lineHeight);
             // 宽度的使用要加上本次 子view的宽度
-            widhtUse = widhtUse + childView.getMeasuredWidth();
+            widhtUse = widhtUse + childView.getMeasuredWidth() + layoutParams.rightMargin + layoutParams.leftMargin;
         }
+        heightUse += lineHeight;
 
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        setMeasuredDimension((int) sumWidth, heightUse);
     }
 
     @Override

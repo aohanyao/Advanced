@@ -71,7 +71,7 @@ public class TagChildView extends android.support.v7.widget.AppCompatTextView {
 
     @Override
     public void draw(Canvas canvas) {
-        canvas.drawRoundRect(mBackgroundRectF, 10, 10, mPaint);
+        canvas.drawRoundRect(mBackgroundRectF, 20, 20, mPaint);
         super.draw(canvas);
     }
 }
