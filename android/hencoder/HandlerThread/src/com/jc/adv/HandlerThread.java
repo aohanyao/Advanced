@@ -6,14 +6,18 @@ package com.jc.adv;
 public class HandlerThread extends Thread {
     private Looper looper;
 
-    @Override
-    public void run() {
+    public HandlerThread() {
         // 准备
         Looper.prepare();
         // 获取
         looper = Looper.myLooper();
+    }
+
+    @Override
+    public void run() {
+
         //开始执行，这里就已经是卡住了
-        System.out.print("looper");
+        System.out.println("looper:" + looper);
         looper.looper();
 
     }

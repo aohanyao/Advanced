@@ -9,13 +9,14 @@ public class TestMain {
     public static void main(String[] args) {
         HandlerThread handlerThread = new HandlerThread();
 
-        handlerThread.start();
+        new Thread() {
+            @Override
+            public void run() {
+                handlerThread.start();
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+            }
+        }.start();
+
         handlerThread.post(new Runnable() {
             @Override
             public void run() {
@@ -23,6 +24,6 @@ public class TestMain {
             }
         });
 
-        
+
     }
 }

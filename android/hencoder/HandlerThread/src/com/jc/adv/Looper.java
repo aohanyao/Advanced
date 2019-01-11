@@ -34,14 +34,17 @@ public class Looper {
     }
 
     public void looper() {
-        synchronized (this) {
-            while (!isQuit) {
-                if (task != null) {
+//        synchronized (this) { // 这样写就是死锁了，这里会一直占用着 monitor
+
+        while (!isQuit) {
+            if (task != null) {
+                synchronized (task){
                     task.run();
                     task = null;
                 }
             }
         }
+//        }
     }
 
 }
